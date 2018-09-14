@@ -55,15 +55,19 @@ li {
     list-style-type: none;
     padding: 16px;
     font-size: 16px;
+    border: 1px;
+    border-bottom-color: #F5F5F5;
+    border-bottom-style: solid;
 }
 
 li img{    
     vertical-align: middle;
 }
 
-.selected {
-    border-bottom-color: blue;
-    border-bottom: 4px;
+li.selected {
+    border-left: 4px;
+    border-left-color: blue;
+    border-left-style: solid;  
 }
 
 /********************
@@ -84,6 +88,19 @@ li img{
     width: 33%;
     height: 72px;
     padding-bottom: 16px;
+    margin: 0px auto;
+}
+
+
+#tab-bar button.selected {
+    color: blue;
+    border: 4px;
+    border-bottom-style: solid;    
+}
+
+#tab-bar img {
+    display: block;
+    margin: 0px auto 4px auto;
 }
  
 /********************
@@ -123,3 +140,8 @@ li img{
     background-color: white;
     padding: 16px;
 }
+
+.chat-msg h3 {
+    color: black;
+}
+
