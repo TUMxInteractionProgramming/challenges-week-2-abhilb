@@ -1,0 +1,124 @@
+/********************
+ *
+ * Global Section   *
+ *                  *
+ ********************/
+* {
+    /* #2 #font #faces */
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+h1 {
+    /* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+
+button {
+    /* #2 #colourful #plusfive */
+    background-color: #CDDC39;
+    color: black;
+    /* #2 #font capital #letters */
+    text-transform: uppercase;
+}
+
+
+
+/********************
+ *                  *
+ *      App Bar     *
+ *                  *
+ ********************/
+h2 {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+}
+
+/********************
+ *                  *
+ *  Channel-Lists   *
+ *                  *
+ ********************/
+
+ul {
+    background-color: white;
+}
+
+li {
+    list-style-type: none;
+    padding: 16px;
+    font-size: 16px;
+}
+
+li img{    
+    vertical-align: middle;
+}
+
+.selected {
+    border-bottom-color: blue;
+    border-bottom: 4px;
+}
+
+/********************
+ *                  *
+ *      Tab Bar     *
+ *                  *
+ ********************/
+#tab-bar {
+    background-color: white;
+}
+
+#tab-bar button {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: white;
+    border: none;
+    font-size: 13px;
+    width: 33%;
+    height: 72px;
+    padding-bottom: 16px;
+}
+ 
+/********************
+ *                  *
+ *      Messages    *
+ *                  *
+ ********************/
+
+.own-chat-msg {
+    width: 80%;
+    font-size: medium;
+    background-color: white;
+    padding: 16px;
+    margin-left: 17.5%; 
+}
+
+.chat-msg {
+    width: 80%;
+    font-size: medium;
+    background-color: white;
+    padding: 16px;
+    margin-left: 2.5%; 
+}
+
+.chat-msg button {
+    background-color: #CDDC39;
+    text-transform: uppercase;
+}
+
+.chat-msg em {    
+    font-size: larger;
+    font-style: normal;
+}
+
+.chat-msg strong {
+    color: black;
+    text-transform: uppercase;
+}
