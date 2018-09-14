@@ -94,7 +94,7 @@ li.selected {
 
 #tab-bar button.selected {
     color: blue;
-    border: 4px;
+    border-bottom: 4px;
     border-bottom-style: solid;    
 }
 
