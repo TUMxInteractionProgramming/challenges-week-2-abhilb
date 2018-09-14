@@ -83,12 +83,11 @@ li.selected {
     text-align: center;
     text-transform: uppercase;
     background-color: white;
-    border: none;
+    border: 0px;
     font-size: 13px;
     width: 33%;
     height: 72px;
     padding-bottom: 16px;
-    margin: 0px auto;
 }
 
 
