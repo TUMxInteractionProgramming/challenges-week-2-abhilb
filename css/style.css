@@ -92,20 +92,12 @@ li img{
  *                  *
  ********************/
 
-.own-chat-msg {
-    width: 80%;
-    font-size: medium;
-    background-color: white;
-    padding: 16px;
-    margin-left: 17.5%; 
-}
 
 .chat-msg {
     width: 80%;
     font-size: medium;
-    background-color: white;
-    padding: 16px;
     margin-left: 2.5%; 
+    margin-bottom: 8px;
 }
 
 .chat-msg button {
@@ -121,4 +113,13 @@ li img{
 .chat-msg strong {
     color: black;
     text-transform: uppercase;
+}
+
+.chat-msg.own {
+    margin-left: 17.5%; 
+}
+
+.chat-msg p {
+    background-color: white;
+    padding: 16px;
 }
